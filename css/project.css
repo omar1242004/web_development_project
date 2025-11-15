@@ -1,0 +1,390 @@
+body{
+    margin: 0;
+    font-family:  "Alegreya", "sans-serif";
+}
+.container{
+    width: 90%;
+    margin: 0 116.4px;
+}
+.nav-brand{
+    float: left;
+    color: white;
+    width: 15%;
+}
+.nav-brand img{
+    width: 100%;
+    top: 50%;
+    margin:24px 0px 0px ; 
+
+}
+.nav-links{
+    margin: 0;
+    padding: 30px;
+    float: right;
+    text-transform: capitalize;  
+}
+.nav-links li{
+    float: left;
+}
+.clear-fit{
+    clear: both;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 20px;
+}
+a:hover{
+    color: gray;
+}
+.home{
+    text-align: center;
+    padding-top: 100px;
+    color: #fff;
+}
+.home span{
+    font-size: 22px;
+    font-family: "Alegreya Sans";
+    margin: 0px 0px 5px;
+    line-height: 40.92px;
+    padding: 0;
+}
+.home p{
+    font-size: 24px;
+    color: white;
+    font-family: "Alegreya";
+    margin: 10px 0px 20px;
+    padding: 0;
+    line-height: 44.64px    ;
+}
+p{
+    font-size: 17px;
+    color: #686868;
+}
+h1{
+    font-size: 67px;
+    text-transform: capitalize;
+    margin: 0px 0px 18px;
+    padding: 0;
+}
+#home{
+    background-image: url(../images/drew-coffman-1872.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+    
+}
+.home-btn{
+    padding: 10px;
+    border: 2px solid #8e7754;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: #8e7754;
+    margin: 5px;
+}
+.home-btn a{
+    text-decoration: none;
+    color: white;
+}
+.home-btn a:hover{
+    color: black;
+}
+.home-btn:hover{
+    background-color: gray;
+}
+.home-btn2{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.home-btn2 a{
+    text-decoration: none;
+    color: white;
+}
+.home-btn2 a:hover{
+    color: black;
+}
+.home-btn2:hover{
+    background-color: gray;
+}
+
+
+.about{
+    margin: 48px 0;
+    padding: 0 48px;
+    font-size: 20px;
+}
+.about .left-side{
+    width: 50%;
+    float: left;
+}
+.left-side img{
+    width: 80%;
+    margin-left: 20px;
+    padding: 15px;
+}
+.right-side{
+   width: 50%;
+   float: right;
+   margin: 0;
+   color: #303030;
+}
+.right-side p{
+   color:#686868 ; 
+   font-size: 17px;
+   margin-top: 15px;
+   margin-right: 15px;
+   padding: 15px;
+}
+.right-side ul{
+    padding: 0 0 20px 0;
+}
+.right-side ul li{
+    padding: 17px 0px;
+}
+ul li span{
+    color: #686868;
+    font-size: 17px;
+}
+h2,h3,h4{
+    text-transform: capitalize;
+    color: #303030;
+}
+
+
+#our-offer{
+    line-height: 31.62px;
+    padding: 90px 116.6px 90px 116.4px;
+    background-color:#F8F8F8;
+    color: #686868;
+    border:transparent 2px solid;
+}
+.left-hand{
+    float: left;
+    width: 48%;
+    margin: 0;
+    padding: 50px 40px 40px 10px;
+    ;
+}
+.left-hand p{
+    font-size: 17px;
+    
+}
+.right-hand{
+    float: right;
+    width: 46%;
+}
+.right-hand img{
+    width: 100%;
+}
+
+
+
+
+#our-baking{
+    background-color: rgb(244, 240, 235);
+    margin: 0px -25px;
+    padding: 70px 116.6px 50px 116.4px;
+    border:transparent 2px solid;
+    text-align: center;
+    color: #686868;
+    font-size: 17px;
+}
+
+.header-baking{
+    margin:10px 0px 60px;
+}
+
+.image{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+.image img{
+    width: 90%;
+   
+}
+.image p{
+   padding: 10px;
+   margin: 5px;
+   line-height: 31.62px;
+}
+
+
+
+#location{
+    margin:  0px -15px;
+    padding: 85px 116.6px 85px 116.4px;
+    line-height: 31.62px;
+    border:transparent 2px solid;
+    background-color:#F8F8F8;
+    color: #686868;
+}
+.contact{
+    margin: 0;
+    padding: 5px 15px 0px;
+    line-height: 31.62px;
+    font-size: 17px;
+    float: left;
+    width: 48%;
+}
+.contact h2{
+    font-size: 24;
+    font-family: "Alegreya";
+}
+.maps{
+    float: right;
+    width: 48%;
+    margin: 0;
+    padding: 0;
+   
+}
+i{
+    margin: 0px 10px 0px 0px;
+    width: 30px;
+    display: inline-block;
+    padding: 0;
+}
+i img{
+    width: 100%;
+    border-radius: 50% ;
+    border: 1px solid #8E7754;
+}
+.contact li img{
+    background-color: #8E7754;
+}
+.contact ul{
+    padding: 5px;
+}
+.contact li{
+    padding: 0px;
+}
+
+
+
+
+
+.footer{
+    background-color: #403D38;
+    padding: 60px 0px 52px;
+    line-height:31.62px;
+    font-size: 16px;
+}
+.footer h4{
+    color: #ffffff;
+    padding: 0;
+    margin: 0px 0px 25px;
+    line-height: 24.84px;
+    font-size: 18px;
+
+}
+.about-us{
+    padding: 0px 15.9375px;
+    width: 23%;
+    display: inline-block;
+    color: #969696;
+}
+.about-us h4{
+    padding: 10px;
+}
+.about-us p{
+    margin: 0px 0px 20px;
+}
+.special-footer{
+    color: #969696;
+    padding: 0px 15.9375px;
+    margin: 0;
+    width: 21%;
+    display: inline-block;
+    
+}
+.special-footer h4{
+    padding: 7px;
+}
+.opening{
+    color: #969696;
+    padding: 0px 15.9375px;
+    margin: 10px 0 0 0;
+    width: 21%;
+    list-style: none;
+    display: inline-block;
+}
+.opening h4{
+    padding: 2px;
+}
+.contect-ditils{
+    color: #969696;
+    padding: 0px 15.9375px;
+    width: 24%;
+    display: inline-block;
+    margin: 0;
+}
+.footer li{
+    margin: 0px 0px 6px;
+    padding: 0 0 7px;
+}
+.contect-ditils .item{
+   padding: 7px;
+}
+.item a{
+    text-decoration: none;
+    color: #686868;
+}
+.item a:hover{
+    color: #969696f7;
+}
+.second-footer{
+    background-color: #353330;
+    text-align: center;
+    padding: 50px 0px 40px;
+    margin: 0;
+}
+.img-footer{
+    color: #797979;
+    margin: 10px 0px 25px;
+    line-height: 31.62px;
+}
+.img-footer img{
+    width: 25%;
+}
+.img-footer p{
+    margin: 5px 0px 0px;
+    font-size: 12px;
+    line-height: 27.9px;
+    vertical-align: baseline;
+}
+i{
+    vertical-align: middle;
+}
+.icon-footer{
+    padding: 8px 0px 0px;
+    margin: 8px 0px 0px;
+    
+}
+.icon-footer img{
+    border: 1px solid transparent;
+    background-color: #403D38;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+   
+}
+.icon-footer i{
+    font-size: 20px;
+    line-height: 40px;
+    border-radius: 50%;
+}
+.icon-footer a{
+    padding: 3px;
+}
+
+
